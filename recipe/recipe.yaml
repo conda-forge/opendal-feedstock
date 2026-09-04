@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.47.6"
+  version: "0.47.7"
 
 package:
   name: opendal
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/o/opendal/opendal-${{ version }}.tar.gz
-  sha256: 297b876ab44162490d4e38041ecb712800ad14814ee35c4c3c196af4b26ffd61
+  sha256: 8676fe960c25e3dfbe68adc8be42ce2dfe4d0d2db89e4665e23394758cd45cfb
 
 build:
   number: 0
