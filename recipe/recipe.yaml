@@ -12,7 +12,7 @@ source:
   sha256: 00c00dc689b521eb8ff48740ae2113bc8912609f392c1c9326accb4414b73fac
 
 build:
-  number: 0
+  number: 1
   skip: is_abi3 and not is_python_min
   python:
     version_independent: ${{ is_abi3 }}
